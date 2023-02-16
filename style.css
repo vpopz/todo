@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #cfaf23;
+}
+
+    @media (min-width: 1025px) {
+        body {
+            background-image: url(./image/login_bg.jpg);
+       }
+    }
+    @media (min-width: 481px) and (max-width: 1024px) {
+        body {
+            background-image: url(./image/login_bgt.jpg);
+        }
+}
+    @media (max-width: 480px) {
+        body {
+    background-image: url(./image/login_bgs.jpg);
+    }
+   }
+.container{
+    background-color: #0e0e0d;
+    opacity: 90%;
+    color:aqua;
+    margin-top: 250px;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(11, 52, 87);
+}
+.container:hover{
+    background-image:linear-gradient(to bottom right, rgb(33, 147, 176), rgb(109, 213, 237));
+    opacity: 100%;
+    
+    color: aliceblue;
+}
+
+.btn{
+    margin-left: 150px;
+}
+
+
+
+
+
+
+

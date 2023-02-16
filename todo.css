@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-image: linear-gradient(to bottom right, rgb(33, 147, 176), rgb(109, 213, 237));
+}
+
+#demo{
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: left;
+    color: #f2f2f2;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+    
+}
+
+
+body{
+    background-image:linear-gradient(to bottom right, rgb(204, 48, 48), rgb(164, 13, 114));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
