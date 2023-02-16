@@ -3,16 +3,32 @@
     margin: 0;
 }
 .navbar{
-    background-image: linear-gradient(to bottom right, rgb(33, 147, 176), rgb(109, 213, 237));
+    background-image: linear-gradient(to bottom right, rgb(32, 48, 52), rgb(109, 213, 237));
 }
 
 #demo{
     margin-top: 100px;
+    text-align: center;
 }
+
+#title{
+    text-align: center;
+}
+#idd{
+    text-align: center;
+}
+#stat{
+    text-align: center;
+}
+
+
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
+    margin-left: 50px; 
+    background-image: linear-gradient(to bottom right, rgb(11, 55, 43), rgb(43, 227, 233));
+    margin-bottom: 20px;
 }
 
 th, td {
@@ -30,8 +46,12 @@ th {
 
 
 body{
-    background-image:linear-gradient(to bottom right, rgb(204, 48, 48), rgb(164, 13, 114));
+    background-image:linear-gradient(to bottom left, rgb(32, 48, 52), rgb(109, 213, 237));
+    background-image: url(./image/todo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
+
 
