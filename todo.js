@@ -1,3 +1,4 @@
+
 function generateTable() {
     fetch('https://jsonplaceholder.typicode.com/todos')
     .then(response => response.json())
@@ -13,6 +14,7 @@ function generateTable() {
 		  	checkbox.type = 'checkbox';
             idCell.textContent = item.id;
             titleCell.textContent = item.title;
+            titleCell.classList.add('capitalize');
             completedCell.appendChild(checkbox);
             // completedCell.textContent = item.completed;
             if (item.completed) {
@@ -44,3 +46,13 @@ function generateTable() {
         });
     });
             };
+
+const tol = document.getElementById('toli');
+const thl = document.getElementById('tableh');
+tol.addEventListener('click', function() {
+    if (thl.style.display === 'none') {
+      thl.style.display = 'table-header-group';
+    } else {
+      thl.style.display = 'table-header-group';
+    }
+  });

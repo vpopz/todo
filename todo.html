@@ -19,7 +19,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2" style="box-shadow: 3px 3px 4px;">
-                <a class="nav-link active" aria-current="page" onclick="generateTable()" href="#">Todo List</a>
+                <a class="nav-link active" id="toli" aria-current="page" onclick="generateTable()" href="#">Todo List</a>
               </li>
               <li class="nav-item" style="box-shadow: 3px 3px 4px;">
                 <a class="nav-link" href="index.html">Logout</a>
@@ -30,9 +30,9 @@
       </nav>
     </header>
 
-    <h1 id="demo" style="margin-bottom:30px;color: white; font-size: 46pt;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"><i>To Do</i></h1>
-	<table>
-		<thead>
+    <h1 id="demo" style="margin-bottom:30px;color: white; font-size: 46pt;font-family:'Courier New', Courier, monospace,sans-serif,serif ;"><i>To Do</i></h1>
+	<table id="tab">
+		<thead id="tableh" style="display: none;">
 			<tr>
 				<th id="idd">ID</th>
 				<th id=title>Title</th>

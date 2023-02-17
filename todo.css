@@ -10,6 +10,12 @@
     margin-top: 100px;
     text-align: center;
 }
+th{
+    background-image: linear-gradient(to top, rgb(183, 169, 169), rgb(176, 23, 79));
+}
+.capitalize{
+    text-transform: capitalize;
+}
 
 #title{
     text-align: center;
@@ -20,7 +26,6 @@
 #stat{
     text-align: center;
 }
-
 
 
 table {
@@ -34,9 +39,16 @@ table {
 th, td {
     padding: 8px;
     border: 1px solid black;
-    text-align: left;
+    text-align:center;
     color: #f2f2f2;
 }
+tr:nth-child(even) {
+    background-color: #090909;
+  }
+
+  tr:nth-child(odd) {
+    background-color: rgb(176, 23, 79);
+  }
 
 th {
     background-color: #f2f2f2;
